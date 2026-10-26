@@ -14,7 +14,7 @@ export default function Projects() {
         {featured.map((p) => <ProjectCard key={p.title} project={p} large />)}
       </div>
 
-      <h3 className="mt-16 font-mono text-sm text-muted">More on GitHub</h3>
+      <h3 className="mt-16 font-mono text-sm text-muted">More projects</h3>
       <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {more.map((p) => <ProjectCard key={p.title} project={p} />)}
       </div>

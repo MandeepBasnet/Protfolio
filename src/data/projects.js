@@ -12,6 +12,26 @@ export const projects = [
     featured: true,
   },
   {
+    title: "Hamro Hajir",
+    context: "iTsoch · Production",
+    summary:
+      "Multi-tenant attendance-as-a-service platform for ZKTeco biometric devices. An ADMS (iclock) server receives fingerprint, face and card punches; companies sign up, pair devices with a code, group them into branches and view attendance reports in Bikram Sambat dates from a PWA dashboard, with each company's data isolated server-side.",
+    tags: ["Next.js", "TypeScript", "Node.js", "Appwrite", "ZKTeco ADMS", "PWA"],
+    live: "https://hajir.trackongps.com",
+    image: "/projects/hamrohajir.webp",
+    featured: true,
+  },
+  {
+    title: "East Rider Kiran",
+    context: "Client project · Production",
+    summary:
+      "Motovlog site for a Nepali moto-vlogger: bike reviews, travel and diary posts, Web Stories, reels synced from YouTube and a merch shop with product variants. Built on Payload CMS with drafts and autosave, migrated from WordPress, with AdSense slots, light/dark themes and Dockerised deploys on Dokploy.",
+    tags: ["Next.js 16", "Payload CMS", "TypeScript", "PostgreSQL", "MinIO", "Docker"],
+    live: "https://eastriderkiran.com",
+    image: "/projects/eastriderkiran.webp",
+    featured: true,
+  },
+  {
     title: "Digital Signage Management App",
     context: "Client project",
     summary:
@@ -65,6 +85,24 @@ export const projects = [
     live: "https://fundora-nepal.vercel.app",
     image: "/projects/fundora.webp",
     featured: true,
+  },
+  {
+    title: "Precision Parts",
+    context: "Academic project · Team",
+    summary:
+      "Vehicle-parts inventory and service platform with admin, staff and customer portals: parts and vendor management, a POS with loyalty discounts, PDF invoices, financial reports and low-stock alerts. React front end on a .NET Clean Architecture API with EF Core.",
+    tags: ["React 19", ".NET", "C#", "EF Core", "Tailwind CSS", "Docker"],
+    github: "https://github.com/pawal-karki/Precision_Parts",
+    live: "https://precision-parts.vercel.app",
+    image: "/projects/precisionparts.webp",
+    featured: true,
+  },
+  {
+    title: "PressHub",
+    context: "Client project",
+    summary:
+      "Bilingual (English/Nepali) news portal on Payload CMS: categories, Web Stories, reels, live updates, ad slots, NRB forex rates and a WordPress-to-Payload importer, running on a self-contained Docker stack.",
+    tags: ["Next.js 15", "Payload CMS", "PostgreSQL", "Redis", "MinIO", "next-intl"],
   },
   {
     title: "LawyerConnect",
