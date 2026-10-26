@@ -28,7 +28,7 @@ export const projects = [
       "CMS-driven restaurant website and live menu — toppings, sides and beverages managed through Appwrite with an in-page edit panel, plus signage integration. Containerised with Docker and Nginx.",
     tags: ["React", "Vite", "Tailwind CSS", "Appwrite", "Docker"],
     github: gh("Uudu"),
-    live: "https://uudu.vercel.app",
+    live: "https://uuduhack.com",
     image: "/projects/uudu.webp",
     featured: true,
   },
