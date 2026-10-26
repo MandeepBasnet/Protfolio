@@ -12,16 +12,6 @@ export const projects = [
     featured: true,
   },
   {
-    title: "Hamro Hajir",
-    context: "iTsoch · Production",
-    summary:
-      "Multi-tenant attendance-as-a-service platform for ZKTeco biometric devices. An ADMS (iclock) server receives fingerprint, face and card punches; companies sign up, pair devices with a code, group them into branches and view attendance reports in Bikram Sambat dates from a PWA dashboard, with each company's data isolated server-side.",
-    tags: ["Next.js", "TypeScript", "Node.js", "Appwrite", "ZKTeco ADMS", "PWA"],
-    live: "https://hajir.trackongps.com",
-    image: "/projects/hamrohajir.webp",
-    featured: true,
-  },
-  {
     title: "East Rider Kiran",
     context: "Client project · Production",
     summary:
@@ -29,28 +19,6 @@ export const projects = [
     tags: ["Next.js 16", "Payload CMS", "TypeScript", "PostgreSQL", "MinIO", "Docker"],
     live: "https://eastriderkiran.com",
     image: "/projects/eastriderkiran.webp",
-    featured: true,
-  },
-  {
-    title: "Digital Signage Management App",
-    context: "Client project",
-    summary:
-      "Streamlined client app for managing digital-signage screens on top of the Xibo CMS API — auth, media uploads, layout management and a publish workflow.",
-    tags: ["React", "Node.js", "Express", "Xibo API", "JWT"],
-    github: gh("Signage-Web-Platform"),
-    live: "https://signage-web-platform.vercel.app",
-    image: "/projects/signage.webp",
-    featured: true,
-  },
-  {
-    title: "Multi-Store Coffee KPI Platform",
-    context: "Client project",
-    summary:
-      "Role-based platform that logs KPIs across multiple coffee stores, shows them on in-store screens and generates reports for admins.",
-    tags: ["React", "Express", "Appwrite", "Recharts"],
-    github: gh("StoreScore"),
-    live: "https://store-score-three.vercel.app",
-    image: "/projects/storescore.webp",
     featured: true,
   },
   {
@@ -95,6 +63,39 @@ export const projects = [
     github: "https://github.com/pawal-karki/Precision_Parts",
     live: "https://precision-parts.vercel.app",
     image: "/projects/precisionparts.webp",
+    featured: true,
+  },
+  // Live sites below only show a login page in their screenshot, so they sit after the ones that show real work.
+  {
+    title: "Hamro Hajir",
+    context: "iTsoch · Production",
+    summary:
+      "Multi-tenant attendance-as-a-service platform for ZKTeco biometric devices. An ADMS (iclock) server receives fingerprint, face and card punches; companies sign up, pair devices with a code, group them into branches and view attendance reports in Bikram Sambat dates from a PWA dashboard, with each company's data isolated server-side.",
+    tags: ["Next.js", "TypeScript", "Node.js", "Appwrite", "ZKTeco ADMS", "PWA"],
+    live: "https://hajir.trackongps.com",
+    image: "/projects/hamrohajir.webp",
+    featured: true,
+  },
+  {
+    title: "Digital Signage Management App",
+    context: "Client project",
+    summary:
+      "Streamlined client app for managing digital-signage screens on top of the Xibo CMS API — auth, media uploads, layout management and a publish workflow.",
+    tags: ["React", "Node.js", "Express", "Xibo API", "JWT"],
+    github: gh("Signage-Web-Platform"),
+    live: "https://signage-web-platform.vercel.app",
+    image: "/projects/signage.webp",
+    featured: true,
+  },
+  {
+    title: "Multi-Store Coffee KPI Platform",
+    context: "Client project",
+    summary:
+      "Role-based platform that logs KPIs across multiple coffee stores, shows them on in-store screens and generates reports for admins.",
+    tags: ["React", "Express", "Appwrite", "Recharts"],
+    github: gh("StoreScore"),
+    live: "https://store-score-three.vercel.app",
+    image: "/projects/storescore.webp",
     featured: true,
   },
   {
